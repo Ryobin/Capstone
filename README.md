@@ -1,8 +1,9 @@
-# Shopping
-all crud operation using volley library for shopping cart application.
-send data to server - user registation /login
-save data to sharedpreference
-user can buy product
-user can add to cart item
-user can rating of buying product
-# Capstone
+# Online Book Ordering Android App for Capstone Project
+
+CRUD operations using PHP as backend.
+Volley Library for fetching data from server to app.
+
++ Registration with admin confirmation before user can logged in.
++ Session handling using sharedpreference.
++ User browse books --> add to cart --> check out --> place order.
++ // ON PROGRESS.
