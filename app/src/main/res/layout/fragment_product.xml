@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ProductFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+       android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/categoryRecyclerView"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+       <!-- <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Books"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:textSize="24dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/product_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:progressTint="@color/colorPrimary"/>
+</FrameLayout>

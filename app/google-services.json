@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "89480418277",
+    "firebase_url": "https://capstone-sda-literatures.firebaseio.com",
+    "project_id": "capstone-sda-literatures",
+    "storage_bucket": "capstone-sda-literatures.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89480418277:android:ca747edaea1ef228",
+        "android_client_info": {
+          "package_name": "capstone.sda.com.literatures"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89480418277-7msd509m25hovjn1sc7123qau89dpjc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWSuvCd800m4Ft0nlKSHHnRztdsnvz5BU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89480418277-7msd509m25hovjn1sc7123qau89dpjc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
